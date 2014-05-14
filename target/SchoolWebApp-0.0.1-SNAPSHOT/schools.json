@@ -1,0 +1,58 @@
+{
+  "schools": [
+    {
+      "school": {
+        "schoolName": "St. Aaron College"
+      },
+      "district": "Kane"      
+    },
+    {
+      "school": {
+        "schoolName": "St. Alan College"
+      },
+      "district": "Kane"  
+    },
+    {
+      "school": {
+        "schoolName": "St. Alexander College"
+      },
+      "district": "Kane"  
+    },
+    {
+      "school": {
+        "schoolName": "St. Alyssa College"
+      },
+      "district": "Kane"  
+    },
+    {
+      "school": {
+        "schoolName": "St. Ana Paloma College"
+      },
+      "district": "Kane"
+    },
+    {
+      "school": {
+        "schoolName": "St. Andrea College"
+      },
+      "district": "Kane"
+    },
+    {
+      "school": {
+        "schoolName": "St. Angel De Jesus College"
+      },
+      "district": "Kane"
+    },
+    {
+      "school": {
+        "schoolName": "St. Angie College"
+      },
+      "district": "Kane"
+    },
+    {
+      "school": {
+        "schoolName": "St. Anthony College"
+      },
+      "district": "Kane"
+    }
+  ]
+}
