@@ -11,7 +11,7 @@
 <script type="text/javascript">
 	$(document).ready(function(){
 		jQuery("#schoolsList").jqGrid({
-			url : 'schools_numeracy_list.json',
+			url : 'schoolList',
 			datatype : 'json',
 			colNames : [  'School','Subject','Year 3','Year 5' ,'Year 7','Year 9'],
 			colModel : [ {

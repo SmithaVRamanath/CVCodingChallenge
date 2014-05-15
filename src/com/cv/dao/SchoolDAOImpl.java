@@ -2,7 +2,6 @@ package com.cv.dao;
 
 import java.util.List;
 
-import org.hibernate.Hibernate;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
@@ -23,11 +22,7 @@ public class SchoolDAOImpl implements SchoolDAO {
 	@Override
 	@Transactional
 	public List<School> listSchool() {
-		List<School> schools = sessionFactory.getCurrentSession().createQuery("from School")
-				.list();
-		for(School s:schools){
-			Hibernate.initialize(s.getResults());
-		}
+		List<School> schools = sessionFactory.getCurrentSession().createQuery("from School").list();		
 		return schools;
 	}
 }
